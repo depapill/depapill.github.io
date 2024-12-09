@@ -1,0 +1,94 @@
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  p {
+    font-family: arial 12px;
+    font:size: 1.3rem;
+  }
+  
+  .headerfont {
+    font-family: Forum;
+    
+  }
+  
+  /* Remove the following style for div to remove the border. */
+  
+  div {
+    border-style: solid;
+    border: 1px solid black;
+  }
+
+  /* General Styles */
+body {
+  font-family: 'Forum', serif;
+  background-color: #dae0eb; /* Light background for contrast */
+  color: #333; /* Slightly dark text for readability */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Font */
+.headerfont {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Navbar Customization */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar-brand h1 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+.nav-link:hover {
+  color: #f39c12; /* Add a vibrant hover color */
+}
+
+/* Article Section */
+p {
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+/* Images */
+img.img-fluid {
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Buttons */
+button.navbar-toggler {
+  border: none;
+}
+
+/* Iframes */
+iframe {
+  border-radius: 10px;
+}
+
+/* Row Styling */
+.row {
+  margin-bottom: 20px;
+}
+
+/* Hover Animation */
+.navbar-nav .nav-link {
+  transition: color 0.3s ease-in-out;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  transition: transform 0.3s ease-in-out;
+}
